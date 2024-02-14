@@ -1,0 +1,37 @@
+nav.menu {
+    margin-right: 50px;
+}
+
+nav a {
+    position: relative;
+    display: inline-block;
+    min-width:120px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    overflow: visible;
+}
+
+nav a:active, nav a:link, nav a:visited {
+    color: #000;
+}
+
+nav a.active {
+    color:purple;
+}
+
+nav a.active::after {
+    content: '';
+    border-bottom: 4px solid purple;
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    bottom: -26px;
+    left: 0;
+}
+
+span.account {
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 10px;
+}
