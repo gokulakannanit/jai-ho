@@ -1,0 +1,46 @@
+.service_list h1 {
+    text-align: center;
+    margin: 30px 0 50px;
+    position: relative;
+    color: purple;
+}
+
+.service_list .material-icons, .service_list .material-symbols-outlined {
+    color: purple;
+    font-size: 50px;
+}
+
+.service_list ul {
+    margin: 30px 0;
+    justify-content: space-around;
+}
+
+.service_list h1::before, .service_list h1::after {
+    content: '';
+    border-bottom: 2px solid purple;
+    width: 200px;
+    position: absolute;
+    top: 25px;
+    z-index: 1;
+}
+
+.service_list h1::before {    
+    left: 120px;
+}
+
+.service_list h1::after {
+    right: 120px;
+}
+
+.service_list li {
+    display: inline-block;
+    max-width: 280px;
+}
+
+.service_list li h2 {
+    color:purple;
+}
+
+.service_list div, .service_list h2, .service_list p{
+    text-align: center;
+}

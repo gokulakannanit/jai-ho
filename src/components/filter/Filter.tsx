@@ -5,16 +5,12 @@ const tags: string[] = [
   "All",
   "Competition",
   "Kids",
+  "Free",
   "Culture",
   "Dance",
   "Party",
   "Celebration",
-  "Food",
-  "Religion",
-  "Regional",
-  "Hindu",
-  "Isalam",
-  "Jain"
+  "Food"
 ];
 
 const Filter = () => {
@@ -29,7 +25,7 @@ const Filter = () => {
         <input type="text" placeholder="Search by event name, date.." />
         <span className="close_icon material-icons">close</span>
       </div>
-      <div className="tag_container">
+      <div className="flex_box">
         {tags.map((item: string) => (
           <div className={selectedTag === item ? 'tags selected' : 'tags'}  onClick={() => handleTagSelection(item)}>
             {item}

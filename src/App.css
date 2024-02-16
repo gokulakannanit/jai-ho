@@ -3,9 +3,19 @@
     margin: 0 auto;
 }
 
+.container {
+    margin-top: 80px;
+}
+
 header.menu {
     border-bottom: 1px solid #ccc;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+    background-color: #fff;
 }
 
 .menu_container {
@@ -19,4 +29,10 @@ header.menu {
     font-size:20px;
     font-weight: bold;
     color: purple;
+}
+
+
+footer {
+    background-color: rgb(31, 3, 31);
+    height: 100px;
 }

@@ -3,6 +3,7 @@ import { ThumbProps } from "../thumb/Thumb";
 const events: ThumbProps[] = [
     {
       date: "14 JAN",
+      paid: true,
       imageUrl:
         "https://imgeng.jagran.com/images/2023/jan/pongalgames1673683813761.jpg",
       title: "Pongal Celebration",
@@ -11,6 +12,7 @@ const events: ThumbProps[] = [
     },
     {
       date: "26 JAN",
+      paid: true,
       imageUrl:
         "https://static.mygov.in/static/s3fs-public/mygov_167232697850183151.jpg",
       title: "Republic Day Celebration",
@@ -35,6 +37,7 @@ const events: ThumbProps[] = [
       },
       {
         date: "14 JAN",
+        paid: true,
         imageUrl:
           "https://demo.ovathemewp.com/em4u/wp-content/uploads/2017/10/event_travel_1-370x222.jpg",
         title: "Pongal Celebration",
@@ -43,6 +46,7 @@ const events: ThumbProps[] = [
       },
       {
         date: "14 JAN",
+        paid: true,
         imageUrl:
           "https://imgeng.jagran.com/images/2023/jan/pongalgames1673683813761.jpg",
         title: "Pongal Celebration",

@@ -30,9 +30,9 @@
 }
 
 .tags {
-  min-width: 50px;
+  max-width: 150px;
   background-color: #efefef;
-  padding: 10px;
+  padding: 10px 20px;
   border-radius: 10px;
   text-align: center;
   margin: 10px;
