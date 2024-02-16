@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import "./NavList.css";
+import Dropdown from "../dropdown/Dropdown";
 
 const NavList = () => {
   const { pathname } = useLocation();
@@ -31,7 +32,9 @@ const NavList = () => {
           </Link>
         ))}
       </nav>
-      <span className="material-icons account">account_circle</span>
+      <Dropdown>
+        <span className="material-icons account">account_circle</span>
+      </Dropdown>
     </div>
   );
 };
